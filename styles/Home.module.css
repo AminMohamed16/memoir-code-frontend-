@@ -1,0 +1,27 @@
+.navbar {
+  width: 100vw;
+  height: 60px;
+  background-color: aquamarine;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.filter {
+  display: flex;
+  flex: 1;
+}
+
+.map {
+  display: flex;
+  flex: 2;
+}
+
+.list {
+  display: flex;
+  flex: 2;
+  background-color: bisque;
+}
