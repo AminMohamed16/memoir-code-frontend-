@@ -1,0 +1,29 @@
+.navbar {
+  width: 100vw;
+  height: 60px;
+  padding: 0 3rem;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.navbar_routes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link_text {
+  list-style: none;
+}
+
+.link_text:not(:last-child) {
+  margin-right: 2rem;
+}
