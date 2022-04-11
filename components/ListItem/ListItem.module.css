@@ -1,0 +1,50 @@
+.listItem {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.listItem_description {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.date {
+  margin: 0 0 1rem 0;
+  font-size: 0.8rem;
+  color: red;
+}
+
+.description {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0, 0.5);
+  max-width: 30ch;
+}
+
+.location {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0, 0.8);
+  max-width: 30ch;
+}
+
+.listItem_image {
+  width: 150px;
+  height: 100px;
+}
+
+
+.listItem:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
